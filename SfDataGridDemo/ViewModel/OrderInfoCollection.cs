@@ -10,16 +10,19 @@ namespace SfDataGridDemo.ViewModel
     public class OrderInfoCollection
     {
         private List<OrderInfo> _orders;
+
         public List<OrderInfo> Orders
         {
             get { return _orders; }
             set { _orders = value; }
         }
+
         public OrderInfoCollection()
         {
             _orders = new List<OrderInfo>();
             this.GenerateOrders();
         }
+
         private void GenerateOrders()
         {
             _orders.Add(new OrderInfo(1001, "Maria Anders", "Germany", "ALFKI", "Berlin"));

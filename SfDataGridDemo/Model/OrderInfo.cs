@@ -29,7 +29,7 @@ namespace SfDataGridDemo.Model
             set { customerId = value; }
         }
 
-        [Display(Name = "Customer Name")]
+        [Display(Name = "Name")]
         public string CustomerName
         {
             get { return customerName; }
@@ -50,6 +50,10 @@ namespace SfDataGridDemo.Model
             set { shippingCity = value; }
         }
 
+        public OrderInfo()
+        {
+            
+        }
 
         public OrderInfo(int orderId, string customerName, string country, string customerId, string shipCity)
         {
