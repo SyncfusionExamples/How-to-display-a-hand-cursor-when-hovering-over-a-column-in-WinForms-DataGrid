@@ -28,4 +28,4 @@ private void OnTableControlMouseMove(object? sender, MouseEventArgs e)
 
 ![HandCursor](HandCursor.gif)
 
-Take a moment to peruse the [WinForms DataGrid - Handling events](https://help.syncfusion.com/windowsforms/datagrid/gettingstarted#handling-events) documentation, where you can find about the handling events with code examples.
+Take a moment to peruse the [WinForms DataGrid - Events](https://help.syncfusion.com/windowsforms/datagrid/gettingstarted#handling-events) documentation, where you can find about the events with code examples.
